@@ -1,0 +1,4 @@
+body {
+  @apply font-medium bg-black;
+  font-family: 'Clash Grotesk Variable';
+}

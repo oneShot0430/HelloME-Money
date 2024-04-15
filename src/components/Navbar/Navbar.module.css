@@ -1,0 +1,33 @@
+/* Navbar.module.css */
+.navbar {
+  @apply h-20 w-full flex items-center justify-around;
+}
+
+.logo_link {
+  @apply w-[228px] h-[54px] flex items-center justify-start rounded-lg bg-[#195399];
+}
+
+.logo_img {
+  @apply h-12 w-[60px];
+}
+
+.logo_description {
+  @apply text-2xl leading-[29.52px] tracking-tight text-white;
+}
+
+.linkContainer {
+  @apply w-[520px] h-[38px] flex items-center justify-between mr-72;
+}
+
+.navLink {
+  @apply text-xs leading-[22.4px] tracking-tight text-white hover:bg-gray-700 px-2 rounded-lg;
+}
+
+
+.accountActionsContainer{
+  @apply h-10 w-[168px] flex items-center justify-around;
+}
+
+.accountAction {
+  @apply h-full w-[71px] text-xs leading-[22.4px] text-center tracking-tight text-white flex items-center justify-center px-2 border border-solid border-white rounded-2xl hover:bg-[#195399] hover:border-0;
+}
