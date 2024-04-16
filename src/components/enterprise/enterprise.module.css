@@ -1,0 +1,44 @@
+.container{
+  @apply py-20 flex flex-col text-white;
+}
+
+.button {
+  @apply flex justify-center items-center mb-12;
+}
+
+.enterprise_button {
+  @apply flex justify-center items-center align-middle w-[289px] h-[36px] bg-white text-black font-medium leading-[19.68px] tracking-wide rounded-2xl;
+}
+
+.contain {
+  @apply w-full flex justify-between items-center;
+}
+
+.description {
+  @apply w-2/3 h-full flex flex-col justify-around items-center;
+}
+
+.subText {
+  @apply flex flex-col justify-between items-start;
+}
+
+.title {
+  @apply font-semibold text-4xl mb-16;
+}
+
+.script {
+  @apply font-normal text-4xl mb-16;
+}
+
+.buttons {
+  @apply flex justify-start items-center relative;
+}
+
+.account_button {
+  @apply h-20 text-black bg-white rounded-3xl p-6 text-[20px] leading-[32px] tracking-wider font-mono font-medium hover:bg-black hover:text-white;
+  border: 2px solid white;
+}
+
+.star {
+  @apply absolute top-[-24px] left-[-20px] w-[50px] h-[60.53px]
+}
