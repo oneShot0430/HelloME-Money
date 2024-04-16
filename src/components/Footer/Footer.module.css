@@ -1,0 +1,23 @@
+.footer{
+  @apply text-white w-full;
+}
+
+.footerContainer {
+  @apply flex justify-between p-12;
+}
+
+.column {
+  @apply flex flex-col justify-start;
+}
+
+.title {
+  @apply text-2xl leading-[29.52px] font-semibold mb-2;
+}
+
+.listItem {
+  @apply text-base leading-[19.68px] flex flex-col justify-start pl-4 my-2;
+}
+
+.bottomSection {
+  @apply text-base leading-[19.68px] text-center; 
+}

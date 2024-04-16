@@ -1,17 +1,24 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from "./components/Navbar/Navbar";
-import './App.css';
-function App() {
-  console.log("App");
+import Footer from "./components/Footer/Footer";
+import SME from "./Page/SME/SME";
+import cryptoExchange from "./Page/CryptoExchange/CryptoExchange";
 
+import './App.css';
+
+function App() {
   return (
     <Router>
       <div>
         <Navbar />
-        {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
+        <Routes>
+          <Route path="/cryptoExchange" element={<cryptoExchange/>} />
+          <Route path="/SME" element={<SME/>} />
+        </Routes>
+        <Footer />
       </div>
     </Router>
   );
