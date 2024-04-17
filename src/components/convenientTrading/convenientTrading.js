@@ -5,7 +5,7 @@ const ConvenientTrading = () => {
   return(
     <div className={styles.container}>
       <div className={styles.image}>
-        <img src="/images/TradingCoin.jpg" alt="Trading Coin" className="opacity-100 z-10"></img>
+        <img src="/images/TradingCoin.jpg" alt="Trading Coin" className="opacity-100 z-10 w-full h-[368px]"></img>
       </div>
       <div className={styles.description}>
         <div className={styles.title}>
