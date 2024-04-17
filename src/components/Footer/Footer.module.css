@@ -1,5 +1,6 @@
 .footer{
   @apply text-white w-full;
+  background-image: url("/public/images/FooterBG.svg");
 }
 
 .footerContainer {
@@ -19,5 +20,5 @@
 }
 
 .bottomSection {
-  @apply text-base leading-[19.68px] text-center; 
+  @apply text-base leading-[19.68px] text-center pb-6; 
 }
