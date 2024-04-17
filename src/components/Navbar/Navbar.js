@@ -10,13 +10,13 @@ const Navbar = () => {
         <span className={styles.logo_description}>HelloMe Money</span>
       </Link>
       <div className={styles.linkContainer}>
-        <Link to="/personal" className={styles.navLink}>Personal Account</Link>
-        <Link to="/business" className={styles.navLink}>Business Account</Link>
-        <Link to="/company" className={styles.navLink}>Company</Link>
+        <Link to="/" className={styles.navLink}>Personal Account</Link>
+        <Link to="/" className={styles.navLink}>Business Account</Link>
+        <Link to="/" className={styles.navLink}>Company</Link>
       </div>
       <div className={styles.accountActionsContainer}>    
-        <Link to="/login" className={styles.accountAction}><div>Login</div></Link>
-        <Link to="/signup" className={styles.accountAction}><div>Signup</div></Link>
+        <Link to="/" className={styles.accountAction}><div>Login</div></Link>
+        <Link to="/" className={styles.accountAction}><div>Signup</div></Link>
       </div>
     </div>
   );

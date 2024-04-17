@@ -8,12 +8,13 @@ const SME = () => {
   return(
     <div>
       <Enterprise />
-      <TailoredSolutions />
-      <StreamlinedBanking />
-      <GrowOpportunity />
+      <div style={{ background: "linear-gradient(181.91deg, #121212 1.61%, #195399 89.35%)" }}> 
+        <TailoredSolutions />
+        <StreamlinedBanking />
+        <GrowOpportunity />
+      </div>
     </div>
   );
 }
 
 export default SME;
-

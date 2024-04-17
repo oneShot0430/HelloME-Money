@@ -1,0 +1,8 @@
+.buttons {
+  @apply flex justify-center items-center relative my-48;
+}
+
+.account_button {
+  @apply h-20 w-96 text-black bg-white rounded-3xl p-6 text-4xl leading-[32px] tracking-wider font-mono font-medium hover:bg-black hover:text-white;
+  border: 2px solid white;
+}
